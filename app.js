@@ -59,7 +59,7 @@ app.post("/failure", (req, res) =>{
 })
 
 
-app.listen(procces.env.PORT || 3000, ()=> {
+app.listen(process.env.PORT || 3000, ()=> {
     console.log('listening on http://localhost:3000/');
 });
 
